@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61D26D6D-E70C-4838-A8E2-3355B39A48DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_3.Qbei_Uriage_DL</RootNamespace>
+    <AssemblyName>3.Qbei_Uriage_DL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base_DL.cs" />
+    <Compile Include="Branch_DL.cs" />
+    <Compile Include="Brand_DL.cs" />
+    <Compile Include="Category_Honten_DL.cs" />
+    <Compile Include="CommercialTax_DL.cs" />
+    <Compile Include="Cost_DL.cs" />
+    <Compile Include="DetailItemUnit_DL.cs" />
+    <Compile Include="DocumentUnit_DL.cs" />
+    <Compile Include="FixedCost_DL.cs" />
+    <Compile Include="Holiday_DL.cs" />
+    <Compile Include="InsuranceMaster_DL.cs" />
+    <Compile Include="Inventory_DL.cs" />
+    <Compile Include="ItemMaster_DL.cs" />
+    <Compile Include="Item_DL.cs" />
+    <Compile Include="OutsourcingMaster_DL.cs" />
+    <Compile Include="PackingFareMaster_DL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QbeiUser_DL.cs" />
+    <Compile Include="SalesCommission_DL.cs" />
+    <Compile Include="Site_Category_DL.cs" />
+    <Compile Include="WorkingDays_DL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\4.Qbei_Uriage_Common\4.Qbei_Uriage_Common.csproj">
+      <Project>{1c760010-88a7-4ae4-a716-bc768cf11ab2}</Project>
+      <Name>4.Qbei_Uriage_Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
