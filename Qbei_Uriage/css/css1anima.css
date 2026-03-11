@@ -1,0 +1,40 @@
+﻿$width: 140;
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crystal-bg {
+  background-position: 0% 0%;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    width: 350px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 1px rgba(black, .6);
+    background-image: radial-gradient(circle at 50% 50%, rgba(black, .5), transparent), radial-gradient(circle at 0% 20%, #03FCF6, #476F93, #4D346E);
+    background-color: black;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotateY(360deg) rotateX(15deg);
+  }
+}
+
+@keyframes shine {
+  50% {
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 0 100px 40px rgba(white, .8), 0 0 5px 0 white;
+    background: rgba(white, .8);
+  }
+}
