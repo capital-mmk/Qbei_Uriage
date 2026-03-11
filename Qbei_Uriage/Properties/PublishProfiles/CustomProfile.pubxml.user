@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\Uriage</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>08/16/2018 09:46:43</publishTime>
+    </File>
+    <File Include="bin/2.Qbei_Uriage_BL.dll">
+      <publishTime>01/18/2019 16:54:13</publishTime>
+    </File>
+    <File Include="bin/2.Qbei_Uriage_BL.pdb">
+      <publishTime>01/18/2019 16:54:13</publishTime>
+    </File>
+    <File Include="bin/3.Qbei_Uriage_DL.dll">
+      <publishTime>01/18/2019 16:54:12</publishTime>
+    </File>
+    <File Include="bin/3.Qbei_Uriage_DL.pdb">
+      <publishTime>01/18/2019 16:54:12</publishTime>
+    </File>
+    <File Include="bin/4.Qbei_Uriage_Common.dll">
+      <publishTime>01/18/2019 16:54:11</publishTime>
+    </File>
+    <File Include="bin/4.Qbei_Uriage_Common.pdb">
+      <publishTime>01/18/2019 16:54:11</publishTime>
+    </File>
+    <File Include="bin/Qbei_Uriage.dll">
+      <publishTime>01/18/2019 16:56:35</publishTime>
+    </File>
+    <File Include="bin/Qbei_Uriage.pdb">
+      <publishTime>01/18/2019 16:56:35</publishTime>
+    </File>
+    <File Include="Branch/Branch.aspx">
+      <publishTime>01/18/2019 13:29:10</publishTime>
+    </File>
+    <File Include="Branch/BranchEntry.aspx">
+      <publishTime>01/18/2019 13:32:51</publishTime>
+    </File>
+    <File Include="Brand/BrandList.aspx">
+      <publishTime>01/18/2019 13:35:07</publishTime>
+    </File>
+    <File Include="CommercialTax/CommercialTaxEntry.aspx">
+      <publishTime>01/18/2019 13:39:10</publishTime>
+    </File>
+    <File Include="CommercialTax/CommercialTaxListing.aspx">
+      <publishTime>01/18/2019 13:40:15</publishTime>
+    </File>
+    <File Include="css/bootstrap-datetimepicker.css">
+      <publishTime>08/16/2018 09:46:43</publishTime>
+    </File>
+    <File Include="css/bootstrap-datetimepicker.min.css">
+      <publishTime>02/22/2018 11:51:25</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css.map">
+      <publishTime>02/22/2018 11:51:25</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>07/18/2018 12:38:42</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>02/22/2018 11:51:25</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>12/19/2017 17:17:52</publishTime>
+    </File>
+    <File Include="css/css1anima.css">
+      <publishTime>12/19/2017 17:17:52</publishTime>
+    </File>
+    <File Include="css/font-awesome.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/font-awesome.min1.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/font-awesome1.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/fontawesome-all.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/fontawesome-all.min.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/fontawesome.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/fontawesome.min.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/IcoMoon.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="css/login.css">
+      <publishTime>12/19/2017 17:17:53</publishTime>
+    </File>
+    <File Include="css/menuStyle.css">
+      <publishTime>07/18/2018 12:39:55</publishTime>
+    </File>
+    <File Include="css/register.css">
+      <publishTime>01/06/2019 19:22:38</publishTime>
+    </File>
+    <File Include="css/snowfallani.css">
+      <publishTime>12/19/2017 17:17:53</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/18/2019 13:42:38</publishTime>
+    </File>
+    <File Include="css/tabledesign.css">
+      <publishTime>08/14/2018 13:54:38</publishTime>
+    </File>
+    <File Include="DBBackUp.aspx">
+      <publishTime>07/18/2018 19:19:47</publishTime>
+    </File>
+    <File Include="DetailItemUnit/DetailItemUnit.aspx">
+      <publishTime>01/18/2019 13:44:50</publishTime>
+    </File>
+    <File Include="DocumentUnit/DocumentUnit.aspx">
+      <publishTime>01/18/2019 13:46:56</publishTime>
+    </File>
+    <File Include="FixedCost/FixedCostEntry.aspx">
+      <publishTime>12/28/2018 16:20:27</publishTime>
+    </File>
+    <File Include="FixedCost/FixedCostListing.aspx">
+      <publishTime>01/18/2019 13:49:34</publishTime>
+    </File>
+    <File Include="Fonts/font-awesome-animation.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff2">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/FontAwesome.otf">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/Fontawesone.css">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/icomoon.eot">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/icomoon.svg">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/icomoon.ttf">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/icomoon.woff">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/Pe-icon-7-stroke.eot">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/Pe-icon-7-stroke.svg">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/Pe-icon-7-stroke.ttf">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Fonts/Pe-icon-7-stroke.woff">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Holiday/HolidayEntry.aspx">
+      <publishTime>01/18/2019 13:52:23</publishTime>
+    </File>
+    <File Include="Holiday/HolidayListing.aspx">
+      <publishTime>01/18/2019 13:53:04</publishTime>
+    </File>
+    <File Include="Images/q3.png">
+      <publishTime>12/19/2017 17:17:53</publishTime>
+    </File>
+    <File Include="InsuranceMaster/InsuranceEntry.aspx">
+      <publishTime>01/18/2019 13:58:41</publishTime>
+    </File>
+    <File Include="InsuranceMaster/InsuranceListing.aspx">
+      <publishTime>01/18/2019 13:59:20</publishTime>
+    </File>
+    <File Include="Item/Item.aspx">
+      <publishTime>01/18/2019 14:02:21</publishTime>
+    </File>
+    <File Include="ItemMaster/IMtest.aspx">
+      <publishTime>01/18/2019 15:31:55</publishTime>
+    </File>
+    <File Include="ItemMaster/ItemMaster.aspx">
+      <publishTime>08/31/2018 15:58:32</publishTime>
+    </File>
+    <File Include="js/bootstrap-datetimepicker.js">
+      <publishTime>02/22/2018 11:51:26</publishTime>
+    </File>
+    <File Include="js/bootstrap-datetimepicker.min.js">
+      <publishTime>02/22/2018 11:51:25</publishTime>
+    </File>
+    <File Include="js/bootstrap-datetimepicker.uk.js">
+      <publishTime>02/22/2018 11:51:25</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>02/22/2018 11:51:26</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>02/22/2018 11:51:26</publishTime>
+    </File>
+    <File Include="js/jquery-1.9.1.js">
+      <publishTime>02/22/2018 11:51:26</publishTime>
+    </File>
+    <File Include="js/jquery-1.9.1.min.js">
+      <publishTime>02/22/2018 11:51:26</publishTime>
+    </File>
+    <File Include="js/jquery.formtowizard.js">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="js/jquery.validate.min.js">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="js/menuJs.js">
+      <publishTime>07/17/2018 13:22:34</publishTime>
+    </File>
+    <File Include="js/menuJs2.js">
+      <publishTime>07/17/2018 13:23:07</publishTime>
+    </File>
+    <File Include="js/validate.js">
+      <publishTime>08/06/2018 18:00:05</publishTime>
+    </File>
+    <File Include="Login/hello.aspx">
+      <publishTime>08/31/2018 16:31:23</publishTime>
+    </File>
+    <File Include="Login/Login.aspx">
+      <publishTime>07/18/2018 18:08:22</publishTime>
+    </File>
+    <File Include="Login/WebForm1.aspx">
+      <publishTime>12/19/2017 17:17:55</publishTime>
+    </File>
+    <File Include="OutsourcingMaster/OutsourcingEntry.aspx">
+      <publishTime>01/18/2019 15:33:58</publishTime>
+    </File>
+    <File Include="OutsourcingMaster/OutsourcingListing.aspx">
+      <publishTime>01/18/2019 15:34:45</publishTime>
+    </File>
+    <File Include="PackingFareMaster/PackingFareEntry.aspx">
+      <publishTime>01/18/2019 15:36:22</publishTime>
+    </File>
+    <File Include="PackingFareMaster/PackingFareListing.aspx">
+      <publishTime>01/18/2019 15:37:05</publishTime>
+    </File>
+    <File Include="PlaningData/ImportPlaningData.aspx">
+      <publishTime>01/18/2019 15:38:38</publishTime>
+    </File>
+    <File Include="QbeiUriage.Master">
+      <publishTime>07/17/2018 15:48:41</publishTime>
+    </File>
+    <File Include="Region.xml">
+      <publishTime>12/28/2018 16:30:24</publishTime>
+    </File>
+    <File Include="SalesCommission/SaleCommissionListing.aspx">
+      <publishTime>01/18/2019 15:42:06</publishTime>
+    </File>
+    <File Include="SalesCommission/SalesCommissionEntry.aspx">
+      <publishTime>01/18/2019 15:47:54</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/19/2017 17:17:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/19/2017 17:17:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.2.6.js">
+      <publishTime>11/08/2018 12:27:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>12/19/2017 17:17:56</publishTime>
+    </File>
+    <File Include="Scripts/js1.js">
+      <publishTime>12/19/2017 17:17:57</publishTime>
+    </File>
+    <File Include="Scripts/login.js">
+      <publishTime>12/19/2017 17:17:57</publishTime>
+    </File>
+    <File Include="Scripts/webtoolkit.jscrollable.js">
+      <publishTime>11/08/2018 12:27:33</publishTime>
+    </File>
+    <File Include="Scripts/webtoolkit.scrollabletable.js">
+      <publishTime>11/08/2018 12:27:33</publishTime>
+    </File>
+    <File Include="Uriage.Master">
+      <publishTime>01/18/2019 16:32:10</publishTime>
+    </File>
+    <File Include="UserList/UserEntry.aspx">
+      <publishTime>01/18/2019 15:50:15</publishTime>
+    </File>
+    <File Include="UserList/UserList.aspx">
+      <publishTime>01/18/2019 15:57:27</publishTime>
+    </File>
+    <File Include="UserList/User_Entry.aspx">
+      <publishTime>01/18/2019 15:57:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/06/2019 22:34:35</publishTime>
+    </File>
+    <File Include="WorkingDays/WorkingDaysEntry.aspx">
+      <publishTime>01/18/2019 16:25:55</publishTime>
+    </File>
+    <File Include="WorkingDays/WorkingDaysListing.aspx">
+      <publishTime>01/18/2019 16:28:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
