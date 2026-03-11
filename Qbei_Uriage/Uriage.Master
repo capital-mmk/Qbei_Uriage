@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Uriage.master.cs" Inherits="Qbei_Uriage.Uriage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <style>
+        .menucolor {
+            color:#008080 !important;
+        }
+        .navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d;
+    cursor: pointer;
+}
+        .dropdown-menu > li > a {
+            cursor:pointer;
+        }
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+     cursor: pointer;
+}
+        body {
+font-family: "MS PGothic",Helvetica,Arial,sans-serif !important;
+   
+
+        }
+        table#ContentPlaceHolder1_gvItemMaster.table.table-striped.table-bordered.table-hover.usd {
+width:100% !important;
+}
+        .header-m th{
+            font-size: 13px;
+        }
+    </style>
+    <title></title>
+   <script>$('ul.nav li.dropdown').hover(function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function () {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});</script>
+ <link href="https://fontawesome.com/icons?d=gallery&q=Branc" rel="stylesheet" />
+  <link href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet" />
+    <%--     <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />--%>
+    <%--<link href="css/fontawesome-all.css" rel="stylesheet" />--%>
+  <%--  <link href="css/IcoMoon.css" rel="stylesheet" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />--%>
+    <link href="https://fontawesome.com/icons/box-usd?style=solid" rel="stylesheet" />
+    <link href="webpack:///./static/scss/app.scss" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="css/tabledesign.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="js/bootstrap-datetimepicker.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.uk.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.9.1.intellisense.js"></script>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <div>
+    <div class="body-wrap">
+  <div class="container" style="width:100%; padding:0px !important;position:fixed;z-index: 20000045;">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="color:blue">Qbei Uriage</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li ><a href="<%=Page.ResolveUrl("~/ItemMaster/IMtest.aspx") %>"><span class="glyphicon glyphicon-dashboard menucolor"> </span> Dashboard</a></li>
+            <li class="dropdown">
+              <a  class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-jpy menucolor"> </span> Cost<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="<%=Page.ResolveUrl("~/PackingFareMaster/PackingFareListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Packing_fare</a></li>
+                <li><a href="<%=Page.ResolveUrl("~/SalesCommission/SaleCommissionListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Sale Commission</a></li>
+                <li><a href="<%=Page.ResolveUrl("~/CommercialTax/CommercialTaxListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Commertial Taxes</a></li>
+                  <li><a href="<%=Page.ResolveUrl("~/InsuranceMaster/InsuranceListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Insurance</a></li>
+                <li><a href="<%=Page.ResolveUrl("~/OutsourcingMaster/OutsourcingListing.aspx") %>" ><i class="glyphicon glyphicon-usd menucolor"></i> Outsourcing</a></li>
+                  <li><a href="<%=Page.ResolveUrl("~/FixedCost/FixedCostListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Fixed Cost</a></li>
+                  <li><a href="<%=Page.ResolveUrl("~/Holiday/HolidayListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Holiday </a></li>
+                  <li><a href="<%=Page.ResolveUrl("~/WorkingDays/WorkingDaysListing.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Working Days </a></li>
+                  <li><a href="<%=Page.ResolveUrl("~/PlaningData/ImportPlaningData.aspx") %>"><i class="glyphicon glyphicon-usd menucolor"></i> Planing Data </a></li>
+              </ul>
+            </li>
+              <li class="dropdown">
+              <a  class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list menucolor"></span> Master List<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li ><a href="<%=Page.ResolveUrl("~/Brand/BrandList.aspx") %>"><i class="glyphicon glyphicon-bitcoin menucolor"></i>  Brand</a></li>
+                <li><a  href="<%=Page.ResolveUrl("~/Branch/Branch.aspx") %>"><i class="fal fa-code-branch menucolor"></i> Branch</a></li>
+                <li><a  href="<%=Page.ResolveUrl("~/Item/Item.aspx") %>"><i class="fas fa-sitemap menucolor"></i> Item</a></li>
+                  <li><a  href="<%=Page.ResolveUrl("~/DetailItemUnit/DetailItemUnit.aspx") %>"><i class="fal fa-code-branch menucolor"></i> Detail Item Unit</a></li>
+                <li><a  href="<%=Page.ResolveUrl("~/DocumentUnit/DocumentUnit.aspx") %>"><i class="fa fa-file-alt menucolor"></i> Document Unit</a></li>
+              </ul>
+                  <li class="dropdown">
+              <a  class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog menucolor"></span> Setting <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a  href="<%=Page.ResolveUrl("~/Branch/BranchEntry.aspx") %>"><i class="fal fa-code-branch menucolor"></i> Branch Entry</a></li>
+              </ul>
+            </li>
+                  <li class="dropdown" runat="server" visible="false">
+              <a  class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-users-cog menucolor"></span> User Setting <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="<%=Page.ResolveUrl("~/UserList/UserEntry.aspx") %>"><span class="fa fa-user-plus  menucolor"></span> User Entry</a></li>
+                  <li> <a href="<%=Page.ResolveUrl("~/UserList/UserList.aspx") %>"><span class="fa fa-users menucolor"> </span> User List</a></li>
+              </ul>
+            </li>
+                  <li><a href="<%=Page.ResolveUrl("~/About.aspx") %>"><i class="fas fa-question-circle menucolor"></i> About</a></li>
+            </li>
+              <%--<a href="About.aspx">About.aspx</a>--%>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+              <li> <asp:HiddenField runat="server" ID="hdn_info" /></li>
+          <%--  <li style="vertical-align:middle; line-height:50px;"></li>--%>
+            <li class="dropdown">
+              <a  class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user menucolor"></span> <asp:Label runat="server" id="lbl_name" ForeColor="White"></asp:Label><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a runat="server" onserverclick="myprofile_Click"><span class="fa fa-user-edit menucolor"> </span> Edit Profile</a></li>
+                <li class="divider"></li>
+                <li><a runat="server" onserverclick="Logout_Click"><span class="glyphicon glyphicon-share-alt menucolor"> </span> Log out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+</div>
+    <div style="padding-top:90px; ">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+       
+        </div>
+            
+    </div>
+       
+    </form>
+     <footer  class="navbar-fixed-bottom footer" style="vertical-align:middle;line-height:20px; position:inherit; background-color:black " >
+        
+       <%--style="background-color:#58ACFA; height:60px; width:100%; background-size:cover; "--%>
+        
+        <div class="footer-top1 footer" style=" background-color:black;vertical-align:middle; "> 
+           <div class="container" style="color:white; vertical-align:middle ">
+               </div>
+            </div>
+               </footer>
+</body>
+</html>
